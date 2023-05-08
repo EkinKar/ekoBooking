@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Demo
 
 You can see the website demo here:
+https://ekobooking.ekinkar.com/
 https://eko-booking.vercel.app/
 
 ## Available Scripts
