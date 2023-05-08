@@ -1,4 +1,5 @@
-import styles from './searchItem.module.css';
+import { Link } from "react-router-dom";
+import styles from "./searchItem.module.css";
 
 const SearchItem = () => {
   return (
@@ -31,7 +32,9 @@ const SearchItem = () => {
         <div className={styles.siDetailTexts}>
           <span className={styles.siPrice}>$112</span>
           <span className={styles.siTaxOp}>Includes taxes and fees</span>
-          <button className={styles.siCheckButton}>See availability</button>
+          <Link to={"/hotels/1"}>
+            <button className={styles.siCheckButton}>See availability</button>
+          </Link>
         </div>
       </div>
     </div>

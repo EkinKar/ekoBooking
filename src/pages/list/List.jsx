@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import Header from '../../components/header/Header';
-import Navbar from '../../components/navbar/Navbar';
-import styles from './list.module.css';
-import { useLocation } from 'react-router-dom';
-import { format } from 'date-fns';
-import { DateRange } from 'react-date-range';
-import SearchItem from '../../components/searchItem/SearchItem';
+import { useState } from "react";
+import Header from "../../components/header/Header";
+import Navbar from "../../components/navbar/Navbar";
+import styles from "./list.module.css";
+import { useLocation } from "react-router-dom";
+import { format } from "date-fns";
+import { DateRange } from "react-date-range";
+import SearchItem from "../../components/searchItem/SearchItem";
 
 const List = () => {
   const location = useLocation();
@@ -31,8 +31,8 @@ const List = () => {
               <label htmlFor="">Check-in Date</label>
               <span onClick={() => setOpenDate(!openDate)}>{`${format(
                 date[0].startDate,
-                'MM/dd/yyyy'
-              )} to ${format(date[0].endDate, 'MM/dd/yyyy')}`}</span>
+                "MM/dd/yyyy"
+              )} to ${format(date[0].endDate, "MM/dd/yyyy")}`}</span>
               {openDate && (
                 <DateRange
                   onChange={(item) => setDate(item.selection)}
