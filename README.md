@@ -5,8 +5,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Demo
 
 You can see the website demo here: \
-https://ekobooking.ekinkar.com/ \
-https://eko-booking.vercel.app/
+https://ekobooking.ekinkar.com/ 
+
+
+
+![Screenshot_2](https://github.com/EkinKar/ekoBooking/assets/56177544/b8eab6bd-8eff-4aa1-8aae-8119e54020ff) 
+
+![Screenshot_3](https://github.com/EkinKar/ekoBooking/assets/56177544/c9efbe5c-6639-4f21-9add-49a0dbd0cc01) 
+
+![Screenshot_4](https://github.com/EkinKar/ekoBooking/assets/56177544/b1e9de31-ee52-4d8e-ba7f-7535d8c697b7) 
+
 
 ## Available Scripts
 
